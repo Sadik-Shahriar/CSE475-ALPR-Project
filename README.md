@@ -1,3 +1,40 @@
-Semi-Supervised and Self-Supervised Object Detection for License Plate RecognitionCourse: CSE 475 - Machine LearningSemester: Fall 2025University: East West University📌 Project OverviewThis project investigates label-efficient object detection for Automatic License Plate Recognition (ALPR). We benchmark YOLOv12 against Semi-Supervised Learning (Pseudo-Labeling) and Self-Supervised Learning (SimCLR, BYOL) strategies to improve performance in data-scarce regimes (20% labeled data).👥 Group MembersNameIDMd. Sadik Shahriar2023-2-60-103Jannatul Ferdous Nabila2022-3-60-198Md Moon Rahman Nayem2022-3-60-210Tasnim Jabir2022-3-60-283📊 Key ResultsModel StrategyTraining DatamAP@0.5Baseline (YOLOv12n)100% Labeled0.9765Semi-SL (Pseudo-Labeling)20% Labeled + Pseudo0.9656Self-SL (SimCLR)Unlabeled Pre-train + 20% Fine-tune0.9609Self-SL (BYOL)Unlabeled Pre-train + 20% Fine-tune0.9632📂 Repository Structurenotebooks/: Contains all experimental code (Baseline, Semi-SL, Self-SL).results/: Training curves and inference visualizations.requirements.txt: Python dependencies.🚀 How to RunClone the repository:git clone [https://github.com/YOUR_USERNAME/CSE475-ALPR-Project.git](https://github.com/YOUR_USERNAME/CSE475-ALPR-Project.git)
-Install dependencies:pip install -r requirements.txt
-Run the notebooks in Jupyter or Kaggle.🔗 DatasetRoboflow Universe: License Plate Recognition Dataset
+# Semi-Supervised and Self-Supervised Object Detection for License Plate Recognition
+
+**Course:** CSE 475 - Machine Learning
+
+**Semester:** Fall 2025
+
+**University:** East West University
+
+## 📌 Project Overview
+
+This project investigates label-efficient object detection for Automatic License Plate Recognition (ALPR). We benchmark **YOLOv12** against **Semi-Supervised Learning (Pseudo-Labeling)** and **Self-Supervised Learning (SimCLR, BYOL)** strategies to improve performance in data-scarce regimes (20% labeled data).
+
+## 👥 Group Members
+
+| **Name** | **ID** |
+|---|---|
+| Md. Sadik Shahriar | 2023-2-60-103 |
+| Jannatul Ferdous Nabila | 2022-3-60-198 |
+| Md Moon Rahman Nayem | 2022-3-60-210 |
+| Tasnim Jabir | 2022-3-60-283 |
+
+## 📊 Key Results
+
+| **Model Strategy** | **Training Data** | `**mAP@0.5**` |
+|---|---|---|
+| **Baseline (YOLOv12n)** | 100% Labeled | **0.9765** |
+| **Semi-SL (Pseudo-Labeling)** | 20% Labeled + Pseudo | 0.9656 |
+| **Self-SL (SimCLR)** | Unlabeled Pre-train + 20% Fine-tune | 0.9609 |
+| **Self-SL (BYOL)** | Unlabeled Pre-train + 20% Fine-tune | **0.9632** |
+
+## 📂 Repository Structure
+
+* `notebooks/`: Contains all experimental code (Baseline, Semi-SL, Self-SL).
+
+* `results/`: Training curves and inference visualizations.
+
+## 🔗 Dataset
+
+[Roboflow Universe: License Plate Recognition Dataset](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e)
+
