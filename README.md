@@ -21,7 +21,7 @@ This project investigates label-efficient object detection for Automatic License
 
 ## 📊 Key Results
 
-| **Model Strategy** | **Training Data** | `**mAP@0.5**` |
+| **Model Strategy** | **Training Data** | **`mAP@0.5`** |
 |---|---|---|
 | **Baseline (YOLOv12n)** | 100% Labeled | **0.9765** |
 | **Semi-SL (Pseudo-Labeling)** | 20% Labeled + Pseudo | 0.9656 |
