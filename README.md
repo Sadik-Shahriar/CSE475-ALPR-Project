@@ -34,6 +34,21 @@ This project investigates label-efficient object detection for Automatic License
 
 * `results/`: Training curves and inference visualizations.
 
+## 📓 Kaggle Notebooks
+### Baseline Models
+- [YOLOv12n Baseline](https://www.kaggle.com/code/sadikshahriar/license-plate-detection-yolov12-xai)
+- [YOLOv11n Baseline](https://www.kaggle.com/code/mdmoonrahmannayem/license-plate-detection-yolov11-xai)
+- [YOLOv10n Baseline](https://www.kaggle.com/code/tasnimjabir/license-plate-recognition-yolov10n)
+
+### Semi-Supervised Learning
+- [Pseudo-Labeling Pipeline](https://www.kaggle.com/code/sadikshahriar/cse-475-ssl-pseudo-labeling-license-plate)
+
+### Self-Supervised Learning
+- [SimCLR Pre-training](https://www.kaggle.com/code/sadikshahriar/phase-1-self-supervised-learning-simclr)
+- [SimCLR Fine-tuning](https://www.kaggle.com/code/sadikshahriar/phase-2-fine-tuning-simclr)
+- [BYOL Pre-training](https://www.kaggle.com/code/sadikshahriar/byol-pre-training)
+- [BYOL Fine-tuning](https://www.kaggle.com/code/sadikshahriar/byol-fine-tuning)
+
 ## 🔗 Dataset
 
 [Roboflow Universe: License Plate Recognition Dataset](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e)
