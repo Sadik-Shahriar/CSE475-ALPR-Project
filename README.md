@@ -10,15 +10,6 @@
 
 This project investigates label-efficient object detection for Automatic License Plate Recognition (ALPR). We benchmark **YOLOv12** against **Semi-Supervised Learning (Pseudo-Labeling)** and **Self-Supervised Learning (SimCLR, BYOL)** strategies to improve performance in data-scarce regimes (20% labeled data).
 
-## 👥 Group Members
-
-| **Name** | **ID** |
-|---|---|
-| Md. Sadik Shahriar | 2023-2-60-103 |
-| Jannatul Ferdous Nabila | 2022-3-60-198 |
-| Md Moon Rahman Nayem | 2022-3-60-210 |
-| Tasnim Jabir | 2022-3-60-283 |
-
 ## 📊 Key Results
 
 | **Model Strategy** | **Training Data** | **`mAP@0.5`** |
