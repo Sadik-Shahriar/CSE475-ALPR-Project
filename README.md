@@ -8,7 +8,7 @@
 
 ## 📌 Project Overview
 
-This project investigates label-efficient object detection for Automatic License Plate Recognition (ALPR). We benchmark **YOLOv12** against **Semi-Supervised Learning (Pseudo-Labeling)** and **Self-Supervised Learning (SimCLR, BYOL)** strategies to improve performance in data-scarce regimes (20% labeled data).
+This project investigates label-efficient object detection for Automatic License Plate Recognition (ALPR). We benchmark **YOLOv12** against **Semi-Supervised Learning (Pseudo-Labeling)** and **Self-Supervised Learning (SimCLR, BYOL)** to evaluate their effectiveness when labeled data is limited.
 
 ## 📊 Key Results
 
@@ -24,6 +24,14 @@ This project investigates label-efficient object detection for Automatic License
 * `notebooks/`: Contains all experimental code (Baseline, Semi-SL, Self-SL).
 
 * `results/`: Training curves and inference visualizations.
+
+## 🔍 Inference example
+
+Below is an example inference output from the trained model showing detected license plates and predicted bounding boxes.
+
+![Inference results](results/inference_results.png)
+
+You can view the full-resolution image in the `results/` folder: [results/inference_results.png](results/inference_results.png)
 
 ## 📓 Kaggle Notebooks
 ### Baseline Models
@@ -43,4 +51,3 @@ This project investigates label-efficient object detection for Automatic License
 ## 🔗 Dataset
 
 [Roboflow Universe: License Plate Recognition Dataset](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e)
-
